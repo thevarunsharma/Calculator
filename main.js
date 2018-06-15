@@ -36,7 +36,10 @@ for(var i=0;i<18;i++){
     }
     else{
       ans.innerText+=x
-      if(is_operator(x)||(x=='EXP')){
+      if(((x==='+')||(x==='-'))&&((str==="")||(is_operator(str[str.length-2])))) {
+        str=str+' '+x
+      }
+      else if(is_operator(x)||(x=='EXP')){
         str=str+' '+x+' '
       }
       else{
