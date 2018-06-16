@@ -1,0 +1,98 @@
+body{
+  background-image: url('background.jpg');
+  background-size:cover;
+}
+#sidebar{
+  position: fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  width:40%;
+  background-color: #151515;
+}
+h1{
+  font-family:'Press Start 2P';
+  line-height: 5vw;
+  font-size: 3.2vw;
+  padding: 2vw;
+  margin: 2vw;
+  color: white;
+  text-shadow: black 0.5vw 0.5vw;
+}
+#answer{
+  background-color:#ADC3B7;
+  word-wrap: break-word;
+  overflow: auto;
+  color: #2F2C25;
+  text-align: right;
+  font-family: VT323;
+  font-size: 7vw;
+  width: 90%;
+  height: 21vw;
+  margin:3%;
+  padding:0.5vw;
+  margin-top: 15%;
+  border: 0.3vw solid #2F2C25;
+  border-radius: 1vw;
+
+}
+#options{
+  display:block;
+  float: none;
+  position: fixed;
+  top:5vw;
+  right:5vw;
+  width:40%;
+  left:74%;
+  font-family: arial;
+  text-align: center;
+}
+#keypad{
+  position: fixed;
+  top:15vw;
+  right:5vw;
+  width:40%;
+  left:50%;
+  font-size: 2.5vw;
+  text-align: center;
+  font-weight: bold;
+  font-family: arial;
+  padding:1.5vw;
+  padding-right: 0.5vw;
+  border: 1px solid black;
+  border-radius: 5%;
+  background-color: #DED7CD;
+}
+#del,#ac,.keys{
+  display: inline-block;
+  float: left;
+  width:4vw;
+  height: 4vw;
+  border:3px solid #101010;
+  border-radius: 1vw;
+  padding: 1vw;
+  margin:0.5vw;
+  line-height: 3.5vw;
+  color:white;
+}
+#nums{
+  width: 60%;
+  display: inline-block;
+}
+#nums div{
+  background-color: #505050;
+}
+#nums div:active{
+  background-color: #404040;
+}
+#operators{
+  width: 40%;
+  float: right;
+}
+#operators div{
+  border-radius: 2vw;
+  background-color: #202020;
+}
+#operators div:active{
+  background-color: #101010;
+}
